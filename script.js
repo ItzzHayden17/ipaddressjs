@@ -1,7 +1,7 @@
 const granted = document.getElementById("granted");
 const denied = document.getElementById("denied");
 
-var ipAddressArray = ["196.39.22.45","196.3.22.145","102.182.93.12"]
+var ipAddressArray = ["196.39.22.45","196.3.22.145","102.182.93.12","196.39.22.145"]
 
 
 fetch('https://api.ipify.org/?format=json').then(response => response.json()).then(data => {
